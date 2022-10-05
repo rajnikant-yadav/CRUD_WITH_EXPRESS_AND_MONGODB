@@ -23,5 +23,5 @@ app.use("/user",web)
 
 
 app.listen(port,()=>{
-    console.log(`server running on http://localhost:${port}`)
+    console.log(`server running on http://localhost:${port}/user`)
 })
